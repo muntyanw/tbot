@@ -1,0 +1,3558 @@
+[2025-02-14 08:03:04] [INFO] Is telegramm bot
+[2025-02-14 08:03:15] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 08:03:15] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 08:03:15] [INFO] pathOrder = /var/www/tbot/orders/order_7499997556_1739520195.json
+[2025-02-14 08:03:15] [INFO] orderData = Array
+[2025-02-14 08:03:15] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 08:03:15] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 08:03:20] [INFO] Is telegramm bot
+[2025-02-14 08:03:38] [INFO] Is callback
+[2025-02-14 08:03:38] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:03:38] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:03:38] [INFO] Обработка успешного платежа
+[2025-02-14 08:03:38] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:03:38] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:03:38] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:03:38] [INFO] response = {"ok":true,"result":"https://t.me/+kC3ESp7UBKZhNjUy"}
+[2025-02-14 08:03:38] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+kC3ESp7UBKZhNjUy
+)
+
+[2025-02-14 08:03:39] [INFO] Is telegramm bot
+[2025-02-14 08:04:34] [INFO] Is callback
+[2025-02-14 08:04:34] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => e1d6c0a6333c32028a58ea42f65f9b97
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519636
+    [processingDate] => 1739519654
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:04:34] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:04:34] [INFO] Обработка успешного платежа
+[2025-02-14 08:04:34] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:04:34] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:04:34] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:04:34] [INFO] response = {"ok":true,"result":"https://t.me/+vOLY0AKUTXBkYTZi"}
+[2025-02-14 08:04:34] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+vOLY0AKUTXBkYTZi
+)
+
+[2025-02-14 08:04:34] [INFO] inviteLink = https://t.me/+vOLY0AKUTXBkYTZi
+[2025-02-14 08:04:34] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+vOLY0AKUTXBkYTZi
+[2025-02-14 08:04:34] [INFO] sendTelegramMessage chat_id = 7499997556 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+vOLY0AKUTXBkYTZi
+[2025-02-14 08:04:34] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:04:34] [INFO] responseData
+[2025-02-14 08:04:34] [INFO] 
+[2025-02-14 08:04:55] [INFO] Is callback
+[2025-02-14 08:04:55] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:04:55] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:04:55] [INFO] Обработка успешного платежа
+[2025-02-14 08:04:55] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:04:55] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:04:55] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:04:55] [INFO] response = {"ok":true,"result":"https://t.me/+8xuf1-0R59xmOWNi"}
+[2025-02-14 08:04:55] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+8xuf1-0R59xmOWNi
+)
+
+[2025-02-14 08:04:55] [INFO] inviteLink = https://t.me/+8xuf1-0R59xmOWNi
+[2025-02-14 08:04:55] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+8xuf1-0R59xmOWNi
+[2025-02-14 08:04:55] [INFO] sendTelegramMessage chat_id = 7499997556 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+8xuf1-0R59xmOWNi
+[2025-02-14 08:04:55] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:04:55] [INFO] responseData
+[2025-02-14 08:04:55] [INFO] 
+[2025-02-14 08:05:48] [INFO] Is callback
+[2025-02-14 08:05:48] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:05:48] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:05:48] [INFO] Обработка успешного платежа
+[2025-02-14 08:05:48] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:05:48] [INFO] responseData
+[2025-02-14 08:05:48] [INFO] 
+[2025-02-14 08:06:18] [INFO] Is callback
+[2025-02-14 08:06:18] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:06:18] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:06:18] [INFO] Обработка успешного платежа
+[2025-02-14 08:06:18] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:06:18] [INFO] responseData
+[2025-02-14 08:06:18] [INFO] 
+[2025-02-14 08:12:33] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 08:12:33] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 08:12:33] [INFO] pathOrder = /var/www/tbot/orders/order_470542283_1739520753.json
+[2025-02-14 08:12:33] [INFO] orderData = Array
+[2025-02-14 08:12:33] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 08:12:33] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 08:12:49] [INFO] Is telegramm bot
+[2025-02-14 08:13:10] [INFO] Is callback
+[2025-02-14 08:13:10] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:13:10] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:13:10] [INFO] Обработка успешного платежа
+[2025-02-14 08:13:10] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:13:10] [INFO] responseData
+[2025-02-14 08:13:10] [INFO] 
+[2025-02-14 08:13:27] [INFO] Is callback
+[2025-02-14 08:13:27] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => 455f2520bfec0117a05f6ebd853e3066
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519965
+    [processingDate] => 1739519984
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:13:27] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:13:27] [INFO] Обработка успешного платежа
+[2025-02-14 08:13:27] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:13:27] [INFO] responseData
+[2025-02-14 08:13:27] [INFO] 
+[2025-02-14 08:15:25] [INFO] Is callback
+[2025-02-14 08:15:25] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:15:25] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:15:25] [INFO] Обработка успешного платежа
+[2025-02-14 08:15:25] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:15:25] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:15:25] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:15:25] [INFO] response = {"ok":true,"result":"https://t.me/+VMMMBIp0kH1jODgy"}
+[2025-02-14 08:15:25] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+VMMMBIp0kH1jODgy
+)
+
+[2025-02-14 08:15:25] [INFO] inviteLink = https://t.me/+VMMMBIp0kH1jODgy
+[2025-02-14 08:15:25] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+VMMMBIp0kH1jODgy
+[2025-02-14 08:15:25] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+VMMMBIp0kH1jODgy
+[2025-02-14 08:15:25] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:15:25] [INFO] responseData
+[2025-02-14 08:15:25] [INFO] 
+[2025-02-14 08:15:27] [INFO] Is telegramm bot
+[2025-02-14 08:15:42] [INFO] Is callback
+[2025-02-14 08:15:42] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:15:42] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:15:42] [INFO] Обработка успешного платежа
+[2025-02-14 08:15:42] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:15:42] [INFO] responseData
+[2025-02-14 08:15:42] [INFO] 
+[2025-02-14 08:16:34] [INFO] Is callback
+[2025-02-14 08:16:34] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:16:34] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:16:34] [INFO] Обработка успешного платежа
+[2025-02-14 08:16:34] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:16:34] [INFO] responseData
+[2025-02-14 08:16:34] [INFO] 
+[2025-02-14 08:16:56] [INFO] Is callback
+[2025-02-14 08:16:56] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:16:56] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:16:56] [INFO] Обработка успешного платежа
+[2025-02-14 08:16:56] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:16:56] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:16:56] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:16:56] [INFO] response = {"ok":true,"result":"https://t.me/+ldu_VgBgQX9iZGUy"}
+[2025-02-14 08:16:56] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+ldu_VgBgQX9iZGUy
+)
+
+[2025-02-14 08:16:56] [INFO] inviteLink = https://t.me/+ldu_VgBgQX9iZGUy
+[2025-02-14 08:16:56] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+ldu_VgBgQX9iZGUy
+[2025-02-14 08:16:56] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+ldu_VgBgQX9iZGUy
+[2025-02-14 08:16:56] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:16:56] [INFO] responseData
+[2025-02-14 08:16:56] [INFO] 
+[2025-02-14 08:17:02] [INFO] Is callback
+[2025-02-14 08:17:02] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:17:02] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:17:02] [INFO] Обработка успешного платежа
+[2025-02-14 08:17:02] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:17:02] [INFO] responseData
+[2025-02-14 08:17:02] [INFO] 
+[2025-02-14 08:17:24] [INFO] Is callback
+[2025-02-14 08:17:24] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:17:24] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:17:24] [INFO] Обработка успешного платежа
+[2025-02-14 08:17:24] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:17:24] [INFO] responseData
+[2025-02-14 08:17:24] [INFO] 
+[2025-02-14 08:17:26] [INFO] Is callback
+[2025-02-14 08:17:26] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:17:26] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:17:26] [INFO] Обработка успешного платежа
+[2025-02-14 08:17:26] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:17:26] [INFO] responseData
+[2025-02-14 08:17:26] [INFO] 
+[2025-02-14 08:17:39] [INFO] Is callback
+[2025-02-14 08:17:39] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:17:39] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:17:39] [INFO] Обработка успешного платежа
+[2025-02-14 08:17:39] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:17:39] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:17:39] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:17:39] [INFO] response = {"ok":true,"result":"https://t.me/+C8nM0ZrMLGk1Mjhi"}
+[2025-02-14 08:17:39] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+C8nM0ZrMLGk1Mjhi
+)
+
+[2025-02-14 08:17:39] [INFO] inviteLink = https://t.me/+C8nM0ZrMLGk1Mjhi
+[2025-02-14 08:17:39] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+C8nM0ZrMLGk1Mjhi
+[2025-02-14 08:17:39] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+C8nM0ZrMLGk1Mjhi
+[2025-02-14 08:17:39] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:17:39] [INFO] responseData
+[2025-02-14 08:17:39] [INFO] 
+[2025-02-14 08:18:14] [INFO] Is callback
+[2025-02-14 08:18:14] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:18:14] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:18:14] [INFO] Обработка успешного платежа
+[2025-02-14 08:18:14] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:18:14] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:18:14] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:18:14] [INFO] response = {"ok":true,"result":"https://t.me/+6dp2h4-JdAFmNGZi"}
+[2025-02-14 08:18:14] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+6dp2h4-JdAFmNGZi
+)
+
+[2025-02-14 08:18:14] [INFO] inviteLink = https://t.me/+6dp2h4-JdAFmNGZi
+[2025-02-14 08:18:14] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+6dp2h4-JdAFmNGZi
+[2025-02-14 08:18:14] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+6dp2h4-JdAFmNGZi
+[2025-02-14 08:18:14] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:18:14] [INFO] responseData
+[2025-02-14 08:18:14] [INFO] 
+[2025-02-14 08:18:41] [INFO] Is callback
+[2025-02-14 08:18:41] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:18:41] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:18:41] [INFO] Обработка успешного платежа
+[2025-02-14 08:18:41] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:18:41] [INFO] responseData
+[2025-02-14 08:18:41] [INFO] 
+[2025-02-14 08:19:39] [INFO] Is callback
+[2025-02-14 08:19:39] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:19:39] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:19:39] [INFO] Обработка успешного платежа
+[2025-02-14 08:19:39] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:19:39] [INFO] responseData
+[2025-02-14 08:19:39] [INFO] 
+[2025-02-14 08:20:12] [INFO] Is callback
+[2025-02-14 08:20:12] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:20:12] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:20:12] [INFO] Обработка успешного платежа
+[2025-02-14 08:20:12] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:20:12] [INFO] responseData
+[2025-02-14 08:20:12] [INFO] 
+[2025-02-14 08:21:03] [INFO] Is callback
+[2025-02-14 08:21:03] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:21:03] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:21:03] [INFO] Обработка успешного платежа
+[2025-02-14 08:21:03] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:21:03] [INFO] responseData
+[2025-02-14 08:21:03] [INFO] 
+[2025-02-14 08:22:41] [INFO] Is callback
+[2025-02-14 08:22:41] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:22:41] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:22:41] [INFO] Обработка успешного платежа
+[2025-02-14 08:22:41] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:22:41] [INFO] responseData
+[2025-02-14 08:22:41] [INFO] 
+[2025-02-14 08:23:31] [INFO] Is callback
+[2025-02-14 08:23:31] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:23:31] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:23:31] [INFO] Обработка успешного платежа
+[2025-02-14 08:23:31] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:23:31] [INFO] responseData
+[2025-02-14 08:23:31] [INFO] 
+[2025-02-14 08:24:12] [INFO] Is callback
+[2025-02-14 08:24:12] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:24:12] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:24:12] [INFO] Обработка успешного платежа
+[2025-02-14 08:24:12] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:24:12] [INFO] responseData
+[2025-02-14 08:24:12] [INFO] 
+[2025-02-14 08:24:19] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 08:24:19] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 08:24:19] [INFO] pathOrder = /var/www/tbot/orders/order_469165312_1739521459.json
+[2025-02-14 08:24:19] [INFO] orderData = Array
+[2025-02-14 08:24:19] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 08:24:19] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 08:24:21] [INFO] Is callback
+[2025-02-14 08:24:21] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739516491
+    [merchantSignature] => 5ca8f92e4d2f4df310026709748aad62
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 314449
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739516494
+    [processingDate] => 1739517643
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:24:21] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:24:21] [INFO] Обработка успешного платежа
+[2025-02-14 08:24:21] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:24:21] [INFO] responseData
+[2025-02-14 08:24:21] [INFO] 
+[2025-02-14 08:24:34] [INFO] Is telegramm bot
+[2025-02-14 08:24:41] [INFO] Is callback
+[2025-02-14 08:24:41] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:24:41] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:24:41] [INFO] Обработка успешного платежа
+[2025-02-14 08:24:41] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:24:41] [INFO] responseData
+[2025-02-14 08:24:41] [INFO] 
+[2025-02-14 08:24:54] [INFO] Is callback
+[2025-02-14 08:24:54] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:24:54] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:24:54] [INFO] Обработка успешного платежа
+[2025-02-14 08:24:54] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:24:54] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:24:54] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:24:54] [INFO] response = {"ok":true,"result":"https://t.me/+tT33QwZaxy85YzRi"}
+[2025-02-14 08:24:54] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+tT33QwZaxy85YzRi
+)
+
+[2025-02-14 08:24:54] [INFO] inviteLink = https://t.me/+tT33QwZaxy85YzRi
+[2025-02-14 08:24:54] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+tT33QwZaxy85YzRi
+[2025-02-14 08:24:54] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+tT33QwZaxy85YzRi
+[2025-02-14 08:24:54] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:24:54] [INFO] responseData
+[2025-02-14 08:24:54] [INFO] 
+[2025-02-14 08:24:56] [INFO] Is telegramm bot
+[2025-02-14 08:25:14] [INFO] Is callback
+[2025-02-14 08:25:14] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => e1d6c0a6333c32028a58ea42f65f9b97
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519636
+    [processingDate] => 1739519654
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:25:14] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:25:14] [INFO] Обработка успешного платежа
+[2025-02-14 08:25:14] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:25:14] [INFO] responseData
+[2025-02-14 08:25:14] [INFO] 
+[2025-02-14 08:26:12] [INFO] Is callback
+[2025-02-14 08:26:12] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:26:12] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:26:12] [INFO] Обработка успешного платежа
+[2025-02-14 08:26:12] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:26:12] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:26:12] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:26:12] [INFO] response = {"ok":true,"result":"https://t.me/+YIrrhbKZf3ZlZGFi"}
+[2025-02-14 08:26:12] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+YIrrhbKZf3ZlZGFi
+)
+
+[2025-02-14 08:26:12] [INFO] inviteLink = https://t.me/+YIrrhbKZf3ZlZGFi
+[2025-02-14 08:26:12] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YIrrhbKZf3ZlZGFi
+[2025-02-14 08:26:12] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YIrrhbKZf3ZlZGFi
+[2025-02-14 08:26:12] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:26:12] [INFO] responseData
+[2025-02-14 08:26:12] [INFO] 
+[2025-02-14 08:27:42] [INFO] Is callback
+[2025-02-14 08:27:42] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:27:42] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:27:42] [INFO] Обработка успешного платежа
+[2025-02-14 08:27:42] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:27:42] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:27:42] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:27:42] [INFO] response = {"ok":true,"result":"https://t.me/+JrgbAlcNzTFjNjMy"}
+[2025-02-14 08:27:42] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+JrgbAlcNzTFjNjMy
+)
+
+[2025-02-14 08:27:42] [INFO] inviteLink = https://t.me/+JrgbAlcNzTFjNjMy
+[2025-02-14 08:27:42] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+JrgbAlcNzTFjNjMy
+[2025-02-14 08:27:42] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+JrgbAlcNzTFjNjMy
+[2025-02-14 08:27:42] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:27:42] [INFO] responseData
+[2025-02-14 08:27:42] [INFO] 
+[2025-02-14 08:27:42] [INFO] Is callback
+[2025-02-14 08:27:42] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:27:42] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:27:42] [INFO] Обработка успешного платежа
+[2025-02-14 08:27:42] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:27:42] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:27:42] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:27:43] [INFO] response = {"ok":true,"result":"https://t.me/+myYkCKHuv_A1MmM6"}
+[2025-02-14 08:27:43] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+myYkCKHuv_A1MmM6
+)
+
+[2025-02-14 08:27:43] [INFO] inviteLink = https://t.me/+myYkCKHuv_A1MmM6
+[2025-02-14 08:27:43] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+myYkCKHuv_A1MmM6
+[2025-02-14 08:27:43] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+myYkCKHuv_A1MmM6
+[2025-02-14 08:27:43] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:27:43] [INFO] responseData
+[2025-02-14 08:27:43] [INFO] 
+[2025-02-14 08:29:08] [INFO] Is callback
+[2025-02-14 08:29:08] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:29:08] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:29:08] [INFO] Обработка успешного платежа
+[2025-02-14 08:29:08] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:29:08] [INFO] responseData
+[2025-02-14 08:29:08] [INFO] 
+[2025-02-14 08:29:10] [INFO] Is callback
+[2025-02-14 08:29:10] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739516913
+    [merchantSignature] => a2387c891b2b094ee63211bb0ea35fbc
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 554450
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739516916
+    [processingDate] => 1739517887
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:29:10] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:29:10] [INFO] Обработка успешного платежа
+[2025-02-14 08:29:10] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:29:10] [INFO] responseData
+[2025-02-14 08:29:10] [INFO] 
+[2025-02-14 08:29:14] [INFO] Is callback
+[2025-02-14 08:29:14] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:29:14] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:29:14] [INFO] Обработка успешного платежа
+[2025-02-14 08:29:14] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:29:14] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:29:14] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:29:14] [INFO] response = {"ok":true,"result":"https://t.me/+Fpdvc9Gy9phmOThi"}
+[2025-02-14 08:29:14] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+Fpdvc9Gy9phmOThi
+)
+
+[2025-02-14 08:29:14] [INFO] inviteLink = https://t.me/+Fpdvc9Gy9phmOThi
+[2025-02-14 08:29:14] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Fpdvc9Gy9phmOThi
+[2025-02-14 08:29:14] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Fpdvc9Gy9phmOThi
+[2025-02-14 08:29:15] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:29:15] [INFO] responseData
+[2025-02-14 08:29:15] [INFO] 
+[2025-02-14 08:29:50] [INFO] Is callback
+[2025-02-14 08:29:50] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => 455f2520bfec0117a05f6ebd853e3066
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519965
+    [processingDate] => 1739519984
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:29:50] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:29:50] [INFO] Обработка успешного платежа
+[2025-02-14 08:29:50] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:29:50] [INFO] responseData
+[2025-02-14 08:29:50] [INFO] 
+[2025-02-14 08:32:45] [INFO] Is callback
+[2025-02-14 08:32:45] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:32:45] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:32:45] [INFO] Обработка успешного платежа
+[2025-02-14 08:32:45] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:32:45] [INFO] responseData
+[2025-02-14 08:32:45] [INFO] 
+[2025-02-14 08:33:10] [INFO] Is callback
+[2025-02-14 08:33:10] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:33:10] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:33:10] [INFO] Обработка успешного платежа
+[2025-02-14 08:33:10] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:33:10] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:33:10] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:33:10] [INFO] response = {"ok":true,"result":"https://t.me/+l4WFwqSDMmdkMzQy"}
+[2025-02-14 08:33:10] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+l4WFwqSDMmdkMzQy
+)
+
+[2025-02-14 08:33:10] [INFO] inviteLink = https://t.me/+l4WFwqSDMmdkMzQy
+[2025-02-14 08:33:10] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+l4WFwqSDMmdkMzQy
+[2025-02-14 08:33:10] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+l4WFwqSDMmdkMzQy
+[2025-02-14 08:33:10] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:33:10] [INFO] responseData
+[2025-02-14 08:33:10] [INFO] 
+[2025-02-14 08:34:45] [INFO] Is callback
+[2025-02-14 08:34:45] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:34:45] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:34:45] [INFO] Обработка успешного платежа
+[2025-02-14 08:34:45] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:34:45] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:34:45] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:34:45] [INFO] response = {"ok":true,"result":"https://t.me/+Jyt22IFggDViNDMy"}
+[2025-02-14 08:34:45] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+Jyt22IFggDViNDMy
+)
+
+[2025-02-14 08:34:45] [INFO] inviteLink = https://t.me/+Jyt22IFggDViNDMy
+[2025-02-14 08:34:45] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Jyt22IFggDViNDMy
+[2025-02-14 08:34:45] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Jyt22IFggDViNDMy
+[2025-02-14 08:34:45] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:34:45] [INFO] responseData
+[2025-02-14 08:34:45] [INFO] 
+[2025-02-14 08:36:38] [INFO] Is callback
+[2025-02-14 08:36:38] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:36:38] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:36:38] [INFO] Обработка успешного платежа
+[2025-02-14 08:36:38] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:36:38] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:36:38] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:36:38] [INFO] response = {"ok":true,"result":"https://t.me/+l8tyry8NDaRlN2Uy"}
+[2025-02-14 08:36:38] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+l8tyry8NDaRlN2Uy
+)
+
+[2025-02-14 08:36:38] [INFO] inviteLink = https://t.me/+l8tyry8NDaRlN2Uy
+[2025-02-14 08:36:38] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+l8tyry8NDaRlN2Uy
+[2025-02-14 08:36:38] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+l8tyry8NDaRlN2Uy
+[2025-02-14 08:36:38] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:36:38] [INFO] responseData
+[2025-02-14 08:36:38] [INFO] 
+[2025-02-14 08:37:16] [INFO] Is callback
+[2025-02-14 08:37:16] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:37:16] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:37:16] [INFO] Обработка успешного платежа
+[2025-02-14 08:37:16] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:37:16] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:37:16] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:37:17] [INFO] response = {"ok":true,"result":"https://t.me/+BWRHXJ4OKnplMDg6"}
+[2025-02-14 08:37:17] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+BWRHXJ4OKnplMDg6
+)
+
+[2025-02-14 08:37:17] [INFO] inviteLink = https://t.me/+BWRHXJ4OKnplMDg6
+[2025-02-14 08:37:17] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+BWRHXJ4OKnplMDg6
+[2025-02-14 08:37:17] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+BWRHXJ4OKnplMDg6
+[2025-02-14 08:37:17] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:37:17] [INFO] responseData
+[2025-02-14 08:37:17] [INFO] 
+[2025-02-14 08:37:40] [INFO] Is callback
+[2025-02-14 08:37:40] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:37:40] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:37:40] [INFO] Обработка успешного платежа
+[2025-02-14 08:37:40] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:37:40] [INFO] responseData
+[2025-02-14 08:37:40] [INFO] 
+[2025-02-14 08:37:42] [INFO] Is callback
+[2025-02-14 08:37:42] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:37:42] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:37:42] [INFO] Обработка успешного платежа
+[2025-02-14 08:37:42] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:37:42] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:37:42] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:37:42] [INFO] response = {"ok":true,"result":"https://t.me/+7u40Yy7bJoZkODYy"}
+[2025-02-14 08:37:42] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+7u40Yy7bJoZkODYy
+)
+
+[2025-02-14 08:37:42] [INFO] inviteLink = https://t.me/+7u40Yy7bJoZkODYy
+[2025-02-14 08:37:42] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+7u40Yy7bJoZkODYy
+[2025-02-14 08:37:42] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+7u40Yy7bJoZkODYy
+[2025-02-14 08:37:42] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:37:42] [INFO] responseData
+[2025-02-14 08:37:42] [INFO] 
+[2025-02-14 08:38:50] [INFO] Is telegramm bot
+[2025-02-14 08:41:10] [INFO] Is callback
+[2025-02-14 08:41:10] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:41:10] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:41:10] [INFO] Обработка успешного платежа
+[2025-02-14 08:41:10] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:41:10] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:41:10] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:41:10] [INFO] response = {"ok":true,"result":"https://t.me/+sU_kBeLBJmM1NGIy"}
+[2025-02-14 08:41:10] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+sU_kBeLBJmM1NGIy
+)
+
+[2025-02-14 08:41:10] [INFO] inviteLink = https://t.me/+sU_kBeLBJmM1NGIy
+[2025-02-14 08:41:10] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+sU_kBeLBJmM1NGIy
+[2025-02-14 08:41:10] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+sU_kBeLBJmM1NGIy
+[2025-02-14 08:41:11] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:41:11] [INFO] responseData
+[2025-02-14 08:41:11] [INFO] 
+[2025-02-14 08:42:40] [INFO] Is callback
+[2025-02-14 08:42:40] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:42:40] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:42:40] [INFO] Обработка успешного платежа
+[2025-02-14 08:42:40] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:42:40] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:42:40] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:42:40] [INFO] response = {"ok":true,"result":"https://t.me/+GFbX8ped06Y4NWEy"}
+[2025-02-14 08:42:40] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+GFbX8ped06Y4NWEy
+)
+
+[2025-02-14 08:42:40] [INFO] inviteLink = https://t.me/+GFbX8ped06Y4NWEy
+[2025-02-14 08:42:40] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+GFbX8ped06Y4NWEy
+[2025-02-14 08:42:40] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+GFbX8ped06Y4NWEy
+[2025-02-14 08:42:41] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:42:41] [INFO] responseData
+[2025-02-14 08:42:41] [INFO] 
+[2025-02-14 08:43:45] [INFO] Is callback
+[2025-02-14 08:43:45] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:43:45] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:43:45] [INFO] Обработка успешного платежа
+[2025-02-14 08:43:45] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:43:45] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:43:45] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:43:45] [INFO] response = {"ok":true,"result":"https://t.me/+i1hwvdMVh6s4OGUy"}
+[2025-02-14 08:43:45] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+i1hwvdMVh6s4OGUy
+)
+
+[2025-02-14 08:43:45] [INFO] inviteLink = https://t.me/+i1hwvdMVh6s4OGUy
+[2025-02-14 08:43:45] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+i1hwvdMVh6s4OGUy
+[2025-02-14 08:43:45] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+i1hwvdMVh6s4OGUy
+[2025-02-14 08:43:45] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:43:45] [INFO] responseData
+[2025-02-14 08:43:45] [INFO] 
+[2025-02-14 08:44:24] [INFO] Is callback
+[2025-02-14 08:44:24] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:44:24] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:44:24] [INFO] Обработка успешного платежа
+[2025-02-14 08:44:24] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:44:24] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:44:24] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:44:24] [INFO] response = {"ok":true,"result":"https://t.me/+5ujmjzuZiXE1NzYy"}
+[2025-02-14 08:44:24] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+5ujmjzuZiXE1NzYy
+)
+
+[2025-02-14 08:44:24] [INFO] inviteLink = https://t.me/+5ujmjzuZiXE1NzYy
+[2025-02-14 08:44:24] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+5ujmjzuZiXE1NzYy
+[2025-02-14 08:44:24] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+5ujmjzuZiXE1NzYy
+[2025-02-14 08:44:24] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:44:24] [INFO] responseData
+[2025-02-14 08:44:24] [INFO] 
+[2025-02-14 08:45:23] [INFO] Is callback
+[2025-02-14 08:45:23] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:45:23] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:45:23] [INFO] Обработка успешного платежа
+[2025-02-14 08:45:23] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:45:23] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:45:23] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:45:23] [INFO] response = {"ok":true,"result":"https://t.me/+z25SPx6FAB83OTJi"}
+[2025-02-14 08:45:23] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+z25SPx6FAB83OTJi
+)
+
+[2025-02-14 08:45:23] [INFO] inviteLink = https://t.me/+z25SPx6FAB83OTJi
+[2025-02-14 08:45:23] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+z25SPx6FAB83OTJi
+[2025-02-14 08:45:23] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+z25SPx6FAB83OTJi
+[2025-02-14 08:45:23] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:45:23] [INFO] responseData
+[2025-02-14 08:45:23] [INFO] 
+[2025-02-14 08:49:24] [INFO] Is callback
+[2025-02-14 08:49:24] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:49:24] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:49:24] [INFO] Обработка успешного платежа
+[2025-02-14 08:49:24] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:49:24] [INFO] responseData
+[2025-02-14 08:49:24] [INFO] 
+[2025-02-14 08:49:33] [INFO] Is callback
+[2025-02-14 08:49:33] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:49:33] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:49:33] [INFO] Обработка успешного платежа
+[2025-02-14 08:49:33] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:49:33] [INFO] responseData
+[2025-02-14 08:49:33] [INFO] 
+[2025-02-14 08:49:44] [INFO] Is callback
+[2025-02-14 08:49:44] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 08:49:44] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:49:44] [INFO] Обработка успешного платежа
+[2025-02-14 08:49:44] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:49:44] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:49:44] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:49:45] [INFO] response = {"ok":true,"result":"https://t.me/+UQwd6BYjfLVmYzcy"}
+[2025-02-14 08:49:45] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+UQwd6BYjfLVmYzcy
+)
+
+[2025-02-14 08:49:45] [INFO] inviteLink = https://t.me/+UQwd6BYjfLVmYzcy
+[2025-02-14 08:49:45] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+UQwd6BYjfLVmYzcy
+[2025-02-14 08:49:45] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+UQwd6BYjfLVmYzcy
+[2025-02-14 08:49:45] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:49:45] [INFO] responseData
+[2025-02-14 08:49:45] [INFO] 
+[2025-02-14 08:53:28] [INFO] Is callback
+[2025-02-14 08:53:28] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:53:28] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:53:28] [INFO] Обработка успешного платежа
+[2025-02-14 08:53:28] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:53:28] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:53:28] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:53:28] [INFO] response = {"ok":true,"result":"https://t.me/+YbN8HB10HSAzNjQy"}
+[2025-02-14 08:53:28] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+YbN8HB10HSAzNjQy
+)
+
+[2025-02-14 08:53:28] [INFO] inviteLink = https://t.me/+YbN8HB10HSAzNjQy
+[2025-02-14 08:53:28] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YbN8HB10HSAzNjQy
+[2025-02-14 08:53:28] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YbN8HB10HSAzNjQy
+[2025-02-14 08:53:28] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:53:28] [INFO] responseData
+[2025-02-14 08:53:28] [INFO] 
+[2025-02-14 08:53:55] [INFO] Is callback
+[2025-02-14 08:53:55] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 08:53:55] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:53:55] [INFO] Обработка успешного платежа
+[2025-02-14 08:53:55] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:53:55] [INFO] responseData
+[2025-02-14 08:53:55] [INFO] 
+[2025-02-14 08:55:42] [INFO] Is callback
+[2025-02-14 08:55:42] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:55:42] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:55:42] [INFO] Обработка успешного платежа
+[2025-02-14 08:55:42] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 08:55:42] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 08:55:42] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 08:55:42] [INFO] response = {"ok":true,"result":"https://t.me/+YLfUk1OTwUVkN2Fi"}
+[2025-02-14 08:55:42] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+YLfUk1OTwUVkN2Fi
+)
+
+[2025-02-14 08:55:42] [INFO] inviteLink = https://t.me/+YLfUk1OTwUVkN2Fi
+[2025-02-14 08:55:42] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YLfUk1OTwUVkN2Fi
+[2025-02-14 08:55:42] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+YLfUk1OTwUVkN2Fi
+[2025-02-14 08:55:42] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:55:42] [INFO] responseData
+[2025-02-14 08:55:42] [INFO] 
+[2025-02-14 08:56:01] [INFO] Is callback
+[2025-02-14 08:56:01] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => e1d6c0a6333c32028a58ea42f65f9b97
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519636
+    [processingDate] => 1739519654
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 08:56:01] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 08:56:01] [INFO] Обработка успешного платежа
+[2025-02-14 08:56:01] [INFO] Формирование ответа для WayForPay
+[2025-02-14 08:56:01] [INFO] responseData
+[2025-02-14 08:56:01] [INFO] 
+[2025-02-14 09:03:37] [INFO] Is callback
+[2025-02-14 09:03:37] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => 455f2520bfec0117a05f6ebd853e3066
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519965
+    [processingDate] => 1739519984
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 09:03:37] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:03:37] [INFO] Обработка успешного платежа
+[2025-02-14 09:03:37] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:03:37] [INFO] responseData
+[2025-02-14 09:03:37] [INFO] 
+[2025-02-14 09:03:41] [INFO] Is callback
+[2025-02-14 09:03:41] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 09:03:41] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:03:41] [INFO] Обработка успешного платежа
+[2025-02-14 09:03:41] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:03:41] [INFO] responseData
+[2025-02-14 09:03:41] [INFO] 
+[2025-02-14 09:08:39] [INFO] Is callback
+[2025-02-14 09:08:39] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:08:39] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:08:39] [INFO] Обработка успешного платежа
+[2025-02-14 09:08:39] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:08:39] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:08:39] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:08:39] [INFO] response = {"ok":true,"result":"https://t.me/+eOV3DXySn68zNDAy"}
+[2025-02-14 09:08:39] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+eOV3DXySn68zNDAy
+)
+
+[2025-02-14 09:08:39] [INFO] inviteLink = https://t.me/+eOV3DXySn68zNDAy
+[2025-02-14 09:08:39] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+eOV3DXySn68zNDAy
+[2025-02-14 09:08:39] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+eOV3DXySn68zNDAy
+[2025-02-14 09:08:40] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:08:40] [INFO] responseData
+[2025-02-14 09:08:40] [INFO] 
+[2025-02-14 09:13:54] [INFO] Is callback
+[2025-02-14 09:13:54] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:13:54] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:13:54] [INFO] Обработка успешного платежа
+[2025-02-14 09:13:54] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:13:54] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:13:54] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:13:54] [INFO] response = {"ok":true,"result":"https://t.me/+Kop5z-nl9HJjZWVi"}
+[2025-02-14 09:13:54] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+Kop5z-nl9HJjZWVi
+)
+
+[2025-02-14 09:13:54] [INFO] inviteLink = https://t.me/+Kop5z-nl9HJjZWVi
+[2025-02-14 09:13:54] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Kop5z-nl9HJjZWVi
+[2025-02-14 09:13:54] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+Kop5z-nl9HJjZWVi
+[2025-02-14 09:13:54] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:13:54] [INFO] responseData
+[2025-02-14 09:13:54] [INFO] 
+[2025-02-14 09:14:28] [INFO] Is callback
+[2025-02-14 09:14:28] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:14:28] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:14:28] [INFO] Обработка успешного платежа
+[2025-02-14 09:14:28] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:14:28] [INFO] responseData
+[2025-02-14 09:14:28] [INFO] 
+[2025-02-14 09:21:00] [INFO] Is callback
+[2025-02-14 09:21:00] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:21:00] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:21:00] [INFO] Обработка успешного платежа
+[2025-02-14 09:21:00] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:21:00] [INFO] responseData
+[2025-02-14 09:21:00] [INFO] 
+[2025-02-14 09:21:09] [INFO] Is callback
+[2025-02-14 09:21:09] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 09:21:09] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:21:09] [INFO] Обработка успешного платежа
+[2025-02-14 09:21:09] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:21:09] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:21:09] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:21:09] [INFO] response = {"ok":true,"result":"https://t.me/+OIiB33kvzPdkN2Iy"}
+[2025-02-14 09:21:09] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+OIiB33kvzPdkN2Iy
+)
+
+[2025-02-14 09:21:09] [INFO] inviteLink = https://t.me/+OIiB33kvzPdkN2Iy
+[2025-02-14 09:21:09] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+OIiB33kvzPdkN2Iy
+[2025-02-14 09:21:09] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+OIiB33kvzPdkN2Iy
+[2025-02-14 09:21:09] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:21:09] [INFO] responseData
+[2025-02-14 09:21:09] [INFO] 
+[2025-02-14 09:26:39] [INFO] Is callback
+[2025-02-14 09:26:39] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:26:39] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:26:39] [INFO] Обработка успешного платежа
+[2025-02-14 09:26:39] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:26:39] [INFO] responseData
+[2025-02-14 09:26:39] [INFO] 
+[2025-02-14 09:27:26] [INFO] Is callback
+[2025-02-14 09:27:26] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 09:27:26] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:27:26] [INFO] Обработка успешного платежа
+[2025-02-14 09:27:26] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:27:26] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:27:26] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:27:26] [INFO] response = {"ok":true,"result":"https://t.me/+rH4wGw8hHz5lZDAy"}
+[2025-02-14 09:27:26] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+rH4wGw8hHz5lZDAy
+)
+
+[2025-02-14 09:27:26] [INFO] inviteLink = https://t.me/+rH4wGw8hHz5lZDAy
+[2025-02-14 09:27:26] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+rH4wGw8hHz5lZDAy
+[2025-02-14 09:27:26] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+rH4wGw8hHz5lZDAy
+[2025-02-14 09:27:26] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:27:26] [INFO] responseData
+[2025-02-14 09:27:26] [INFO] 
+[2025-02-14 09:38:54] [INFO] Is callback
+[2025-02-14 09:38:54] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:38:54] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:38:54] [INFO] Обработка успешного платежа
+[2025-02-14 09:38:54] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:38:54] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:38:54] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:38:55] [INFO] response = {"ok":true,"result":"https://t.me/+E3LQW0gblTBiNmQy"}
+[2025-02-14 09:38:55] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+E3LQW0gblTBiNmQy
+)
+
+[2025-02-14 09:38:55] [INFO] inviteLink = https://t.me/+E3LQW0gblTBiNmQy
+[2025-02-14 09:38:55] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+E3LQW0gblTBiNmQy
+[2025-02-14 09:38:55] [INFO] sendTelegramMessage chat_id = 470542283 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+E3LQW0gblTBiNmQy
+[2025-02-14 09:38:55] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:38:55] [INFO] responseData
+[2025-02-14 09:38:55] [INFO] 
+[2025-02-14 09:45:19] [INFO] Is callback
+[2025-02-14 09:45:19] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 09:45:19] [INFO] Формируем строку для подписи согласно документации WayForPay для проверки уведомления
+[2025-02-14 09:45:19] [INFO] Обработка успешного платежа
+[2025-02-14 09:45:19] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 09:45:19] [INFO] url = https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 09:45:19] [INFO] Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 09:45:19] [INFO] response = {"ok":true,"result":"https://t.me/+J0DmNaIHUDE0MGYy"}
+[2025-02-14 09:45:19] [INFO] Array
+(
+    [ok] => 1
+    [result] => https://t.me/+J0DmNaIHUDE0MGYy
+)
+
+[2025-02-14 09:45:19] [INFO] inviteLink = https://t.me/+J0DmNaIHUDE0MGYy
+[2025-02-14 09:45:19] [INFO] Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+J0DmNaIHUDE0MGYy
+[2025-02-14 09:45:19] [INFO] sendTelegramMessage chat_id = 469165312 message = Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+J0DmNaIHUDE0MGYy
+[2025-02-14 09:45:20] [INFO] Формирование ответа для WayForPay
+[2025-02-14 09:45:20] [INFO] responseData
+[2025-02-14 09:45:20] [INFO] 
+[2025-02-14 10:33:41] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 10:33:41] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 10:33:41] [INFO] pathOrder = /var/www/tbot/orders/order_7499997556_1739529221.json
+[2025-02-14 10:33:41] [INFO] orderData = Array
+[2025-02-14 10:33:41] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 10:33:41] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 10:34:08] [INFO] Is callback
+[2025-02-14 10:34:08] [INFO] Полученные данные:
+[2025-02-14 10:34:08] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739529221
+    [merchantSignature] => 31d76aaf94f877bfabacad917c908549
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 769455
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739529229
+    [processingDate] => 1739529248
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 10:34:08] [INFO] Формируем строку для подписи:
+[2025-02-14 10:34:08] [INFO] Обработка успешного платежа
+[2025-02-14 10:34:08] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 10:34:08] [INFO] Вызов URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 10:34:08] [INFO] Параметры: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 10:34:09] [INFO] Ответ от Telegram: {"ok":true,"result":"https://t.me/+l9pmLERuJxA5Njg6"}
+[2025-02-14 10:34:09] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+l9pmLERuJxA5Njg6
+)
+
+[2025-02-14 10:34:09] [INFO] Отправляем сообщение: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+l9pmLERuJxA5Njg6
+[2025-02-14 10:34:09] [INFO] Формирование ответа для WayForPay
+[2025-02-14 10:39:48] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 10:40:15] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 10:40:16] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 10:40:16] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 10:40:16] [INFO] pathOrder = /var/www/tbot/orders/order_470542283_1739529616.json
+[2025-02-14 10:40:16] [INFO] orderData = Array
+[2025-02-14 10:40:16] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 10:40:16] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 10:40:58] [INFO] Is callback
+[2025-02-14 10:40:58] [INFO] Полученные данные:
+[2025-02-14 10:40:58] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739529616
+    [merchantSignature] => b739b42334a274453f169779f29f92e6
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 441619
+    [email] => glomokomo@icloud.com
+    [phone] => 380636252227
+    [createdDate] => 1739529627
+    [processingDate] => 1739529658
+    [cardPan] => 49****3142
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC Universal Bank
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => applePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 10:40:58] [INFO] Формируем строку для подписи:
+[2025-02-14 10:40:58] [INFO] Обработка успешного платежа
+[2025-02-14 10:40:58] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 10:40:58] [INFO] Вызов URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 10:40:58] [INFO] Параметры: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 10:40:58] [INFO] Ответ от Telegram: {"ok":true,"result":"https://t.me/+sHxxYcgsqUdkNDVi"}
+[2025-02-14 10:40:58] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+sHxxYcgsqUdkNDVi
+)
+
+[2025-02-14 10:40:58] [INFO] Отправляем сообщение: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+sHxxYcgsqUdkNDVi
+[2025-02-14 10:40:58] [INFO] Формирование ответа для WayForPay
+[2025-02-14 10:50:20] [INFO] Is callback
+[2025-02-14 10:50:20] [INFO] Полученные данные:
+[2025-02-14 10:50:20] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739529221
+    [merchantSignature] => 64acb6554108384a576258c237f9c0c5
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 769455
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739529229
+    [processingDate] => 1739530219
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 10:50:20] [INFO] Формируем строку для подписи:
+[2025-02-14 10:50:20] [INFO] Обработка успешного платежа
+[2025-02-14 10:50:20] [INFO] Приглашение уже отправлено. Повторная отправка не требуется.
+[2025-02-14 10:50:20] [INFO] Формирование ответа для WayForPay
+[2025-02-14 10:58:15] [INFO] Is callback
+[2025-02-14 10:58:15] [INFO] Полученные данные:
+[2025-02-14 10:58:15] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739529616
+    [merchantSignature] => 92ae3405f1519a1f31ecab12e3645124
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 441619
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739529627
+    [processingDate] => 1739530695
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => applePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 10:58:15] [INFO] Формируем строку для подписи:
+[2025-02-14 10:58:15] [INFO] Обработка успешного платежа
+[2025-02-14 10:58:15] [INFO] Приглашение уже отправлено. Повторная отправка не требуется.
+[2025-02-14 10:58:15] [INFO] Формирование ответа для WayForPay
+[2025-02-14 12:16:05] [INFO] Получаем входящие данные от Telegram
+[2025-02-14 12:16:05] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-14 12:16:05] [INFO] pathOrder = /var/www/tbot/orders/order_7499997556_1739535365.json
+[2025-02-14 12:16:05] [INFO] orderData = Array
+[2025-02-14 12:16:05] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-14 12:16:05] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-14 13:07:10] [INFO] Is telegramm bot
+[2025-02-14 15:39:50] [INFO] Is callback
+[2025-02-14 15:39:50] [INFO] Полученные данные:
+[2025-02-14 15:39:50] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => e1d6c0a6333c32028a58ea42f65f9b97
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519636
+    [processingDate] => 1739519654
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 15:39:50] [INFO] Формируем строку для подписи:
+[2025-02-14 15:39:50] [INFO] Обработка успешного платежа
+[2025-02-14 15:39:50] [INFO] Формирование ответа для WayForPay
+[2025-02-14 16:40:56] [INFO] Is callback
+[2025-02-14 16:40:56] [INFO] Полученные данные:
+[2025-02-14 16:40:56] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => e8ce74fd7221231aeecec26c2cb44d6c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520200
+    [processingDate] => 1739521262
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 16:40:56] [INFO] Формируем строку для подписи:
+[2025-02-14 16:40:56] [INFO] Обработка успешного платежа
+[2025-02-14 16:40:56] [INFO] Формирование ответа для WayForPay
+[2025-02-14 18:02:28] [INFO] Is callback
+[2025-02-14 18:02:28] [INFO] Полученные данные:
+[2025-02-14 18:02:28] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519632
+    [merchantSignature] => 6a0c1528bf4b662abf7256893d3f682a
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 176451
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519636
+    [processingDate] => 1739520790
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 18:02:28] [INFO] Формируем строку для подписи:
+[2025-02-14 18:02:28] [INFO] Обработка успешного платежа
+[2025-02-14 18:02:28] [INFO] Формирование ответа для WayForPay
+[2025-02-14 19:09:47] [INFO] Is callback
+[2025-02-14 19:09:47] [INFO] Полученные данные:
+[2025-02-14 19:09:47] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => a461ed63be62d670cc4fa5e3e7da9c23
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739519965
+    [processingDate] => 1739521022
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 19:09:47] [INFO] Формируем строку для подписи:
+[2025-02-14 19:09:47] [INFO] Обработка успешного платежа
+[2025-02-14 19:09:47] [INFO] Формирование ответа для WayForPay
+[2025-02-14 19:48:43] [INFO] Is callback
+[2025-02-14 19:48:43] [INFO] Полученные данные:
+[2025-02-14 19:48:43] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => 0776c4ddd2373bf77eb424ee1146d097
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739520769
+    [processingDate] => 1739521990
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 19:48:43] [INFO] Формируем строку для подписи:
+[2025-02-14 19:48:43] [INFO] Обработка успешного платежа
+[2025-02-14 19:48:43] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 19:48:43] [INFO] Вызов URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 19:48:43] [INFO] Параметры: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 19:48:43] [INFO] Ответ от Telegram: {"ok":true,"result":"https://t.me/+C1qqIRAW_4s3OGYy"}
+[2025-02-14 19:48:43] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+C1qqIRAW_4s3OGYy
+)
+
+[2025-02-14 19:48:43] [INFO] Отправляем сообщение: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+C1qqIRAW_4s3OGYy
+[2025-02-14 19:48:43] [INFO] Формирование ответа для WayForPay
+[2025-02-14 20:15:25] [INFO] Is callback
+[2025-02-14 20:15:25] [INFO] Полученные данные:
+[2025-02-14 20:15:25] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_470542283_1739520753
+    [merchantSignature] => a8549111987de3e93f5bffb288a95337
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 285618
+    [email] => glomokomo@gmail.com
+    [phone] => 380973620433
+    [createdDate] => 1739520769
+    [processingDate] => 1739520925
+    [cardPan] => 44****6526
+    [cardType] => Visa
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC UNIVERSAL BANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => card
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => OLGA
+)
+
+[2025-02-14 20:15:25] [INFO] Формируем строку для подписи:
+[2025-02-14 20:15:25] [INFO] Обработка успешного платежа
+[2025-02-14 20:15:25] [INFO] Приглашение уже отправлено. Повторная отправка не требуется.
+[2025-02-14 20:15:25] [INFO] Формирование ответа для WayForPay
+[2025-02-14 20:33:49] [INFO] Is callback
+[2025-02-14 20:33:49] [INFO] Полученные данные:
+[2025-02-14 20:33:49] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => e670eb68a72b530efbf49068f9b2f32c
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739521475
+    [processingDate] => 1739522470
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 20:33:49] [INFO] Формируем строку для подписи:
+[2025-02-14 20:33:49] [INFO] Обработка успешного платежа
+[2025-02-14 20:33:49] [INFO] Генерируем уникальную ссылку-приглашение для закрытого канала
+[2025-02-14 20:33:49] [INFO] Вызов URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-14 20:33:49] [INFO] Параметры: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-14 20:33:49] [INFO] Ответ от Telegram: {"ok":true,"result":"https://t.me/+jbKqu2X7u2UyZDNi"}
+[2025-02-14 20:33:49] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+jbKqu2X7u2UyZDNi
+)
+
+[2025-02-14 20:33:49] [INFO] Отправляем сообщение: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+jbKqu2X7u2UyZDNi
+[2025-02-14 20:33:49] [INFO] Формирование ответа для WayForPay
+[2025-02-14 20:45:56] [INFO] Is callback
+[2025-02-14 20:45:56] [INFO] Полученные данные:
+[2025-02-14 20:45:56] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739516011
+    [merchantSignature] => 4bce8db94c89f0911545bf2a488381be
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 765448
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739516015
+    [processingDate] => 1739516075
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 20:45:56] [INFO] Формируем строку для подписи:
+[2025-02-14 20:45:56] [INFO] Обработка успешного платежа
+[2025-02-14 20:45:56] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:06:26] [INFO] Is callback
+[2025-02-14 22:06:26] [INFO] Полученные данные:
+[2025-02-14 22:06:26] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739519960
+    [merchantSignature] => 455f2520bfec0117a05f6ebd853e3066
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 462452
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739519965
+    [processingDate] => 1739519984
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 22:06:26] [INFO] Формируем строку для подписи:
+[2025-02-14 22:06:26] [INFO] Обработка успешного платежа
+[2025-02-14 22:06:26] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:17:28] [INFO] Is callback
+[2025-02-14 22:17:28] [INFO] Полученные данные:
+[2025-02-14 22:17:28] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739516913
+    [merchantSignature] => a2387c891b2b094ee63211bb0ea35fbc
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 554450
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739516916
+    [processingDate] => 1739517887
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 22:17:28] [INFO] Формируем строку для подписи:
+[2025-02-14 22:17:28] [INFO] Обработка успешного платежа
+[2025-02-14 22:17:28] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:21:50] [INFO] Is callback
+[2025-02-14 22:21:50] [INFO] Полученные данные:
+[2025-02-14 22:21:50] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739520195
+    [merchantSignature] => 1acc66eaeb464864141f627d9e3ea078
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 873453
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739520200
+    [processingDate] => 1739520217
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 22:21:50] [INFO] Формируем строку для подписи:
+[2025-02-14 22:21:50] [INFO] Обработка успешного платежа
+[2025-02-14 22:21:50] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:21:51] [INFO] Is callback
+[2025-02-14 22:21:51] [INFO] Полученные данные:
+[2025-02-14 22:21:51] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739521459
+    [merchantSignature] => 7358841c636d962faa93f93b3a8a28b9
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 299454
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739521475
+    [processingDate] => 1739521493
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 22:21:51] [INFO] Формируем строку для подписи:
+[2025-02-14 22:21:51] [INFO] Обработка успешного платежа
+[2025-02-14 22:21:51] [INFO] Приглашение уже отправлено. Повторная отправка не требуется.
+[2025-02-14 22:21:51] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:36:39] [INFO] Is callback
+[2025-02-14 22:36:39] [INFO] Полученные данные:
+[2025-02-14 22:36:39] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_469165312_1739515791
+    [merchantSignature] => dcfa5523147a83a2a1179489da88c478
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 396447
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739515797
+    [processingDate] => 1739515815
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-14 22:36:39] [INFO] Формируем строку для подписи:
+[2025-02-14 22:36:39] [INFO] Обработка успешного платежа
+[2025-02-14 22:36:39] [INFO] Формирование ответа для WayForPay
+[2025-02-14 22:48:56] [INFO] Is callback
+[2025-02-14 22:48:56] [INFO] Полученные данные:
+[2025-02-14 22:48:56] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739516491
+    [merchantSignature] => 5ca8f92e4d2f4df310026709748aad62
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 314449
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739516494
+    [processingDate] => 1739517643
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-14 22:48:56] [INFO] Формируем строку для подписи:
+[2025-02-14 22:48:56] [INFO] Обработка успешного платежа
+[2025-02-14 22:48:56] [INFO] Формирование ответа для WayForPay
+[2025-02-15 07:59:58] [INFO] Получаем входящие данные от Telegram
+[2025-02-15 07:59:58] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-15 07:59:58] [INFO] pathOrder = /var/www/tbot/orders/order_7499997556_1739606398.json
+[2025-02-15 07:59:58] [INFO] orderData = Array
+[2025-02-15 07:59:58] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-15 07:59:58] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-15 08:00:27] [INFO] Is callback
+[2025-02-15 08:00:27] [INFO] Отримані дані:
+[2025-02-15 08:00:27] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739606398
+    [merchantSignature] => 938b7502fe9488de6bd95ac568c29317
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 502461
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739606403
+    [processingDate] => 1739606426
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-15 08:00:27] [INFO] Формуємо рядок для підпису:
+[2025-02-15 08:00:27] [INFO] Обробка успішного платежу
+[2025-02-15 08:00:27] [INFO] Генеруємо унікальне посилання-запрошення для закритого каналу
+[2025-02-15 08:00:27] [INFO] Виклик URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-15 08:00:27] [INFO] Параметри: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-15 08:00:27] [INFO] Відповідь від Telegram: {"ok":true,"result":"https://t.me/+VE5zL5K7-7kwNWYy"}
+[2025-02-15 08:00:27] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+VE5zL5K7-7kwNWYy
+)
+
+[2025-02-15 08:00:27] [INFO] Відправляємо повідомлення: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+VE5zL5K7-7kwNWYy
+[2025-02-15 08:00:27] [INFO] Формування відповіді для WayForPay
+[2025-02-15 08:00:56] [INFO] Получаем входящие данные от Telegram
+[2025-02-15 08:00:56] [INFO] Генерируем уникальный идентификатор заказа (invoice)
+[2025-02-15 08:00:56] [INFO] pathOrder = /var/www/tbot/orders/order_7499997556_1739606456.json
+[2025-02-15 08:00:56] [INFO] orderData = Array
+[2025-02-15 08:00:56] [INFO] Формируем ссылку на страницу оплаты
+[2025-02-15 08:00:56] [INFO] Отправляем сообщение с ссылкой на оплату
+[2025-02-15 08:01:17] [INFO] Is callback
+[2025-02-15 08:01:17] [INFO] Отримані дані:
+[2025-02-15 08:01:17] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739606456
+    [merchantSignature] => 1a3dcab38918cda8b60be6778cc2878f
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 031462
+    [email] => mvv.prog@gmail.com
+    [phone] => 380967073707
+    [createdDate] => 1739606459
+    [processingDate] => 1739606477
+    [cardPan] => 53****2881
+    [cardType] => MasterCard
+    [issuerBankCountry] => Ukraine
+    [issuerBankName] => JSC CB PRIVATBANK
+    [recToken] => 
+    [transactionStatus] => Approved
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0.02
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => Valery Muntian
+)
+
+[2025-02-15 08:01:17] [INFO] Формуємо рядок для підпису:
+[2025-02-15 08:01:17] [INFO] Обробка успішного платежу
+[2025-02-15 08:01:17] [INFO] Генеруємо унікальне посилання-запрошення для закритого каналу
+[2025-02-15 08:01:17] [INFO] Виклик URL: https://api.telegram.org/bot7789086814:AAHdJEXpdhCiG8V6FZoOj0PI7YSP0PjamOI/exportChatInviteLink
+[2025-02-15 08:01:17] [INFO] Параметри: Array
+(
+    [chat_id] => -1002364418673
+)
+
+[2025-02-15 08:01:17] [INFO] Відповідь від Telegram: {"ok":true,"result":"https://t.me/+4qDlYJkgrHoxMDUy"}
+[2025-02-15 08:01:17] [INFO] Результат: Array
+(
+    [ok] => 1
+    [result] => https://t.me/+4qDlYJkgrHoxMDUy
+)
+
+[2025-02-15 08:01:17] [INFO] Відправляємо повідомлення: Ваш платіж підтверджено!
+Приєднайтесь до каналу за наступним посиланням: https://t.me/+4qDlYJkgrHoxMDUy
+[2025-02-15 08:01:17] [INFO] Формування відповіді для WayForPay
+[2025-02-15 08:17:24] [INFO] Is callback
+[2025-02-15 08:17:24] [INFO] Отримані дані:
+[2025-02-15 08:17:24] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739606398
+    [merchantSignature] => d5ebbe7d39c59831b7c73d6d43dae1ea
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 502461
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739606403
+    [processingDate] => 1739607444
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-15 08:17:24] [INFO] Формуємо рядок для підпису:
+[2025-02-15 08:17:24] [INFO] Обробка успішного платежу
+[2025-02-15 08:17:24] [INFO] Запрошення вже відправлено. Повторна відправка не потрібна.
+[2025-02-15 08:17:24] [INFO] Формування відповіді для WayForPay
+[2025-02-15 08:17:26] [INFO] Is callback
+[2025-02-15 08:17:26] [INFO] Отримані дані:
+[2025-02-15 08:17:26] [INFO] Array
+(
+    [merchantAccount] => freelance_user_67ad8c73421d0
+    [orderReference] => order_7499997556_1739606456
+    [merchantSignature] => 5b30a4f8038b718a9418888002918658
+    [amount] => 1
+    [currency] => UAH
+    [authCode] => 031462
+    [email] => 
+    [phone] => 
+    [createdDate] => 1739606459
+    [processingDate] => 1739607446
+    [cardPan] => 
+    [cardType] => 
+    [issuerBankCountry] => 
+    [issuerBankName] => 
+    [recToken] => 
+    [transactionStatus] => Refunded
+    [reason] => Ok
+    [reasonCode] => 1100
+    [fee] => 0
+    [paymentSystem] => googlePay
+    [acquirerBankName] => WayForPay
+    [cardProduct] => credit
+    [clientName] => 
+)
+
+[2025-02-15 08:17:26] [INFO] Формуємо рядок для підпису:
+[2025-02-15 08:17:26] [INFO] Обробка успішного платежу
+[2025-02-15 08:17:26] [INFO] Запрошення вже відправлено. Повторна відправка не потрібна.
+[2025-02-15 08:17:26] [INFO] Формування відповіді для WayForPay
